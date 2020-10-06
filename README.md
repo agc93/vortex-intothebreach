@@ -1,5 +1,7 @@
 # Into the Breach support for Vortex
 
+The full documentation is available at [itb.vortex.support](https://itb.vortex.support/).
+
 This extension adds support for Into the Breach mods to the Vortex mod manager.
 
 > This extension is still in preview, please report any issues you find!

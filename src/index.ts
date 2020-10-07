@@ -20,7 +20,6 @@ function main(context: IExtensionContext) {
     const getRootPath = (game: IGame): string => {
         const discovery = context.api.getState().settings.gameMode.discovered[game.id];
         return discovery.path;
-        // return path.join(discovery.path, 'scripts');
     }
     context.once(() => {
         context.api.getI18n().loadNamespaces(context.api.NAMESPACE);
@@ -68,12 +67,8 @@ function findGame() {
         .then((game: IGameStoreEntry) => game.gamePath);
 }
 
-/* function prepareForModding(discovery: IDiscoveryResult) {
-    return fs.ensureDirWritableAsync(path.join(discovery.path, 'mods'), () => Promise.resolve());
-} */
-
 async function prepareForModding(api: IExtensionApi, discovery: IDiscoveryResult) {
-    const notifId = 'missing-stracker-notif';
+    const notifId = 'missing-loader-notif';
     const missingLoader = () => api.sendNotification({
         id: notifId,
         type: 'warning',

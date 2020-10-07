@@ -19,14 +19,12 @@ export function installContent(api: IExtensionApi, files: string[], destinationP
     let modName = getModName(destinationPath);
     let firstType = path.dirname(files.find(f => types.some(t => path.dirname(f).toLowerCase().indexOf(t) !== -1)));
     let root = path.dirname(firstType);
-    debugger;
-    // var firstType = files.find(f => types.some(t => path.dirname(f).toLowerCase().indexOf(t) !== -1));
     var isValid = firstType !== undefined
     if (isValid) {
         const filtered = files.filter(file => (((root == "." ? true : (file.indexOf(root) !== -1)) && (!file.endsWith(path.sep)))));
         log('info', `${modName} detected as ITB mod archive`, {root, candidates: filtered.length});
-        const instructions: IInstruction[] = filtered.map(file => {
-            // log('debug', 'mapping file to instruction', { file: file, root: root });
+        const instructions: IInstruction[] = filtered.map((file, idx) => {
+            progressDelegate((idx/filtered.length)*100);
             const destination = file.substr(firstType.indexOf(path.basename(firstType)));
             return {
                 type: 'copy',

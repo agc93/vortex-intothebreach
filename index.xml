@@ -1,4 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Into the Breach for Vortex – Into the Breach for Vortex</title><link>/</link><description>Recent content on Into the Breach for Vortex</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Initial Release</title><link>/blog/2020/10/06/initial-release/</link><pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate><guid>/blog/2020/10/06/initial-release/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Into the Breach for Vortex – Into the Breach for Vortex</title><link>/</link><description>Recent content on Into the Breach for Vortex</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Initial Release</title><link>/blog/2020/10/07/initial-release/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><guid>/blog/2020/10/07/initial-release/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This release is now available &lt;a href="https://www.nexusmods.com/site/mods/176?tab=files">on Nexus Mods&lt;/a>.&lt;/p>
+&lt;/div>
+&lt;p>This release is the next alpha of the Into the Breach extension!&lt;/p>
+&lt;p>This release &lt;strong>should&lt;/strong> add support for the Epic Games and GOG versions of the game. If you own the Epic/GOG versions and run into any problems with the game being detected, please find me on the Nexus Mods Discord or raise an &lt;a href="https://github.com/agc93/vortex-intothebreach/issues">issue here&lt;/a>.&lt;/p>
+&lt;p>You should be able to install mods for Into the Breach from archives in this release and support the basic Vortex features of install/enable/disable/deploy/purge.&lt;/p></description></item><item><title>Blog: Initial Release</title><link>/blog/2020/10/06/initial-release/</link><pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate><guid>/blog/2020/10/06/initial-release/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This release is now available &lt;a href="https://www.nexusmods.com/site/mods/176?tab=files">on Nexus Mods&lt;/a>.&lt;/p>
 &lt;/div>

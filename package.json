@@ -1,6 +1,6 @@
 {
   "name": "game-intothebreach",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Into the Breach support for Vortex",
   "main": "./dist/index.js",
   "scripts": {

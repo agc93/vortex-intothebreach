@@ -8,6 +8,7 @@ import nfs from 'fs';
 export const GAME_ID = 'intothebreach';
 const STEAMAPP_ID = 590380;
 const GOGAPP_ID = 2004253604;
+const EPICAPP_ID = '5c0d568c71174cff8026db2606771d96';
 const MOD_LOADER_PAGE_URL = 'https://www.nexusmods.com/intothebreach/mods/6';
 export const LOADER_FILES = ['lua5.1-original.dll', 'SDL2-original.dll'];
 
@@ -63,7 +64,7 @@ function main(context: IExtensionContext) {
 }
 
 function findGame() {
-    return util.GameStoreHelper.findByAppId([STEAMAPP_ID.toString(), GOGAPP_ID.toString()])
+    return util.GameStoreHelper.findByAppId([STEAMAPP_ID.toString(), GOGAPP_ID.toString(), EPICAPP_ID])
         .then((game: IGameStoreEntry) => game.gamePath);
 }
 
